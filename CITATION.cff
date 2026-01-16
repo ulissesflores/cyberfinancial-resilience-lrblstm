@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Cyber-Financial Resilience via Little’s Law + Bayesian LSTM (LR-BLSTM)"
+type: software
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+repository-code: "https://github.com/ulissesflores/cyberfinancial-resilience-lrblstm"
+url: "https://ulissesflores.com/research/2025-little-law-resilience"
+abstract: >
+  Reproducible scientific pipeline for cyber-financial resilience modeling
+  using Little’s Law as a flow invariant and Bayesian LSTM networks.
+keywords:
+  - Little’s Law
+  - Bayesian Deep Learning
+  - LSTM
+  - Cyber Resilience
+  - Financial Systems
+license: MIT
+version: 0.1.0

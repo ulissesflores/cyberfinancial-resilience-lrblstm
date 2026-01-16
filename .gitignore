@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data & runs
+outputs/
+runs/
+*.parquet
+*.csv
+*.json
+
+# OS / IDE
+.DS_Store
+.vscode/
