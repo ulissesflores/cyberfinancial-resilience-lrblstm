@@ -1,0 +1,15 @@
+phase: 1
+data_source:
+  exchange: binance
+  symbol: "BTC/USDT"
+  timeframe: "1m"
+windows:
+  ohlcv_days: 90
+  trades_days: 14
+limits:
+  max_trades: 200000
+rate_limit:
+  sleep_s: 0.2
+notes:
+  - "Phase 1 uses public observables only (OHLCV + trades)."
+  - "Little variables (L, λ, W) are proxies; no direct OMS/infra telemetry."

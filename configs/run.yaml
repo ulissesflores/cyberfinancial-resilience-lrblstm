@@ -1,0 +1,23 @@
+run_contract:
+  run_dir: "runs/<run_id>"
+  required_files:
+    - "manifest.json"
+    - "checksums.sha256"
+  artifacts:
+    data:
+      - "ohlcv_*.parquet"
+      - "trades_*.parquet"
+    figures:
+      - "figures/*.png"
+    tables:
+      - "tables/*.md"
+      - "tables/*.csv"
+      - "tables/*.json"
+    logs:
+      - "*.log"
+integrity:
+  hash: "sha256"
+timezone:
+  standard: "UTC"
+versioning:
+  semver: true
