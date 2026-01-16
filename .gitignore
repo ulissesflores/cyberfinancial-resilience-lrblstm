@@ -1,15 +1,28 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
-
-# Data & runs
-outputs/
-runs/
-*.parquet
-*.csv
-*.json
+venv/
 
 # OS / IDE
 .DS_Store
 .vscode/
+.idea/
+
+# Large artifacts (do NOT version)
+runs/
+outputs/
+*.parquet
+*.csv
+
+# Local logs (keep curated logs if needed)
+*.log
+
+# Allow tracked metadata JSON at repo root (codemeta, etc.)
+!codemeta.json
+!schema/*.json
+!schema/*.md
+
+# Context generation tools
+projeto_completo.txt
+scripts/generate_context.py

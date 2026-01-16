@@ -1,20 +1,36 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it."
-title: "Cyber-Financial Resilience via Little’s Law + Bayesian LSTM (LR-BLSTM)"
+message: "If you use this software or its artifacts, please cite it."
+title: "Cyber-Financial Resilience via Little’s Law and Bayesian LSTM (LR-BLSTM)"
 type: software
+version: 0.1.0
+date-released: 2026-01-16
 authors:
   - family-names: Flores
     given-names: Carlos Ulisses
+    affiliation: "Codex Hash Ltda. (Brazil)"
 repository-code: "https://github.com/ulissesflores/cyberfinancial-resilience-lrblstm"
 url: "https://ulissesflores.com/research/2025-little-law-resilience"
 abstract: >
-  Reproducible scientific pipeline for cyber-financial resilience modeling
-  using Little’s Law as a flow invariant and Bayesian LSTM networks.
+  Reproducible scientific pipeline for cyber-financial resilience analysis using
+  public high-frequency market observables (OHLCV and trades), with proxies inspired
+  by Little’s Law and a roadmap toward Bayesian LSTM modeling under non-stationarity.
 keywords:
   - Little’s Law
+  - Queueing Theory
   - Bayesian Deep Learning
   - LSTM
+  - Market Microstructure
   - Cyber Resilience
-  - Financial Systems
-license: MIT
-version: 0.1.0
+  - Financial Resilience
+license: Apache-2.0
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Flores
+      given-names: Carlos Ulisses
+      affiliation: "Codex Hash Ltda. (Brazil)"
+  title: "Cyber-Financial Resilience via Little’s Law and Bayesian LSTM (LR-BLSTM)"
+  year: 2026
+  url: "https://ulissesflores.com/research/2025-little-law-resilience"
+  # doi: "10.5281/zenodo.XXXXXXXX"  # preencher após geração do DOI no Zenodo

@@ -1,0 +1,43 @@
+[project]
+name = "cyberfinancial-resilience-lrblstm"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Audit-grade, reproducible research code for Cyber-Financial Resilience via Little’s Law + Bayesian LSTM (LR-BLSTM)."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+authors = [
+  { name = "Carlos Ulisses Flores" }
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+fix = false
+show-fixes = true
+
+[tool.ruff.lint]
+select = [
+  "E", "F", "W",        # pycodestyle/pyflakes
+  "I",                  # isort
+  "UP",                 # pyupgrade
+  "B",                  # bugbear
+  "D",                  # pydocstyle
+]
+ignore = [
+  "D203",  # 1 blank line required before class docstring (conflicts with D211)
+  "D213",  # Multi-line docstring summary should start at the second line (conflicts with D212)
+]
+pydocstyle.convention = "numpy"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = true
+ignore-module = false
+fail-under = 100
+verbose = 2
