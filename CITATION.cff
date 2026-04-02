@@ -2,7 +2,9 @@ cff-version: 1.2.0
 message: "If you use this software or its artifacts, please cite it."
 title: "Cyber-Financial Resilience via Little’s Law and Bayesian LSTM (LR-BLSTM)"
 type: software
-version: 0.1.0
+version: 0.1.1
+doi: 10.5281/zenodo.18275035
+url: "https://doi.org/10.5281/zenodo.18275035"
 date-released: 2026-01-16
 authors:
   - family-names: Flores
@@ -25,12 +27,13 @@ keywords:
 license: Apache-2.0
 
 preferred-citation:
-  type: article
+  type: software
   authors:
     - family-names: Flores
       given-names: Carlos Ulisses
       affiliation: "Codex Hash Ltda. (Brazil)"
   title: "Cyber-Financial Resilience via Little’s Law and Bayesian LSTM (LR-BLSTM)"
+  version: 0.1.1
   year: 2026
-  url: "https://ulissesflores.com/research/2025-little-law-resilience"
-  # doi: "10.5281/zenodo.XXXXXXXX"  # preencher após geração do DOI no Zenodo
+  doi: 10.5281/zenodo.18275035
+  url: "https://doi.org/10.5281/zenodo.18275035"

@@ -1,8 +1,17 @@
-# Cyber-Financial Resilience via Little's Law and Bayesian LSTM (LR-BLSTM)
+# Cyber-Financial Resilience (LR-BLSTM)
 
-Reproducible research software for studying cyber-financial resilience in crypto markets using high-frequency public data, queue-inspired observability proxies, and a roadmap toward Bayesian sequence modeling.
+Reproducible research software for studying cyber-financial resilience in crypto markets using high-frequency public data, Little's Law-inspired observability proxies, and a roadmap toward Bayesian sequence modeling.
 
 This repository is designed as an audit-grade scientific artifact. Phase 1 is complete and focuses on data collection, exploratory analysis, and reproducible run management. Later phases extend the project toward Bayesian LSTM modeling and resilience-oriented inference under market stress and non-stationarity.
+
+## At a glance
+
+- Domain: cyber-financial resilience and public-market observability
+- Data source: Binance public API
+- Current artifact phase: Phase 1 baseline complete
+- Latest release: [v0.1.1 — Citable Artifact & DOI Registration](https://github.com/ulissesflores/cyberfinancial-resilience-lrblstm/releases/tag/v0.1.1)
+- DOI: [10.5281/zenodo.18275035](https://doi.org/10.5281/zenodo.18275035)
+- Documentation: reproducibility notes, data rationale, threat model, and model card in `docs/`
 
 ## What this repository is
 
@@ -27,6 +36,13 @@ This project uses queueing intuition inspired by Little's Law to construct proxy
 - Phase 1: data pipeline and EDA complete
 - Phase 2: Bayesian LSTM modeling planned
 - Phase 3: resilience metrics and stress propagation planned
+
+## Key outputs
+
+- immutable run directories under `runs/<RUN_ID>/`
+- machine-readable manifests and SHA-256 checksums
+- generated figures for volatility, drawdowns, trade intensity, and inter-arrival behavior
+- multilingual scientific documentation for reproducibility and modeling scope
 
 ## Data and observability
 
@@ -79,14 +95,6 @@ python scripts/eda_generate_figures.py --run_id <RUN_ID>
 
 All generated artifacts are written under `runs/<RUN_ID>/`.
 
-## What you get
-
-- immutable run directories
-- machine-readable manifests
-- SHA-256 checksums
-- generated figures for volatility, drawdowns, trade intensity, and inter-arrival behavior
-- documentation for rationale, reproducibility, and threat modeling
-
 ## Scientific guardrails
 
 - queue-inspired variables are proxy observables, not direct queue measurements
@@ -108,8 +116,9 @@ Additional documentation is also available in `pt-BR` and `es`.
 - Citation metadata: [CITATION.cff](./CITATION.cff)
 - Machine-readable metadata: [codemeta.json](./codemeta.json)
 - Latest release: [v0.1.1 — Citable Artifact & DOI Registration](https://github.com/ulissesflores/cyberfinancial-resilience-lrblstm/releases/tag/v0.1.1)
+- DOI: [10.5281/zenodo.18275035](https://doi.org/10.5281/zenodo.18275035)
 
-If you use this work, cite it using the metadata in `CITATION.cff`.
+If you use this work, cite the DOI-backed archival release rather than an unversioned repository snapshot.
 
 ## Repository layout
 
