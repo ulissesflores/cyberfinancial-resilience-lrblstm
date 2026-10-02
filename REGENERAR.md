@@ -15,7 +15,7 @@ Base do ambiente: Python 3.11.15 (uv, cpython-3.11), 50 pacotes no freeze (torch
 ## Como recriar
 
 ```bash
-cd cyberfinancial-resilience-lrblstm
+cd "$(git rev-parse --show-toplevel)"   # raiz do repositório, de onde quer que você esteja dentro dele
 uv venv --python 3.11 .venv
 uv pip install --python .venv/bin/python -r requirements.lock.txt
 # alternativa sem uv:
