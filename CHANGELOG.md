@@ -31,3 +31,6 @@ The format follows **Keep a Changelog**: https://keepachangelog.com/
 - Bayesian LSTM modeling layer (Phase 2).
 - Resilience scoring and uncertainty quantification.
 - Stress propagation and antifragility analysis.
+
+### Docs
+- `REGENERAR.md` sem referências a caminhos locais; sem mudança de código.

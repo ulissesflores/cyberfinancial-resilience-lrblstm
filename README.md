@@ -95,6 +95,8 @@ python scripts/eda_generate_figures.py --run_id <RUN_ID>
 
 All generated artifacts are written under `runs/<RUN_ID>/`.
 
+For recreating the Python environment itself (`.venv` and caches, not versioned in this repo), see [REGENERAR.md](./REGENERAR.md).
+
 ## Scientific guardrails
 
 - queue-inspired variables are proxy observables, not direct queue measurements
