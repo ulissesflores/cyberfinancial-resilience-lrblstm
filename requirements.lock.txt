@@ -1,4 +1,4 @@
-# requirements.lock.txt: freeze de cyberfinancial-resilience-lrblstm/.venv em 2026-09-29, gerado ANTES da poda (projeto DISCO)
+# requirements.lock.txt: freeze de cyberfinancial-resilience-lrblstm/.venv em 2026-09-29
 # comando: uv pip freeze --python .venv/bin/python (venv uv, sem pip)
 aiodns==4.0.4
 aiohappyeyeballs==2.6.2
